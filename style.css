@@ -1,0 +1,45 @@
+div {
+    font-family: Arial, sans-serif;
+}
+
+main {
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+    padding: 20px;
+    max-width: 1200px;
+    margin: 0 auto;
+}
+
+
+.Box1 {
+    background-color: brown;
+    /* CONSISTENT PADDING: 30px all sides */
+    padding: 30px;
+    width: 20%;
+    /* SAME BORDER: 15px black everywhere */
+    border: 15px solid #333;
+    border-radius: 10px;
+}
+
+.Box2 {
+    background-color: aquamarine;
+    /* CONSISTENT PADDING: 40px all sides */
+    padding: 40px;
+    width: 50%;
+    margin-left: 20%;
+    /* SAME BORDER: 15px black everywhere */
+    border: 15px solid #333;
+    border-radius: 15px;
+}
+
+.Box3 {
+    background-color: blueviolet;
+    /* CONSISTENT PADDING: 40px all sides */
+    padding: 40px;
+    width: 50%;
+    /* SAME BORDER: 15px black everywhere */
+    border: 15px solid #333;
+    border-radius: 15px;
+}
+
